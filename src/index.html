@@ -5,12 +5,25 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <title>TO-DO App</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="./style.css" />
       <script src="./index.js"></script>
    </head>
    <body>
-      <div>
-         <input type="text" id="todotext" placeholder="Type here..." />
-         <button id="addNewItem" onclick="addNewItem()">Add new Item</button>
+      <div class="title">
+         <h1>To Do App</h1>
+      </div>
+      <div class="todoWrapper">
+         <div class="inputelements">
+            <input
+               class="addText"
+               type="text"
+               id="todotext"
+               placeholder="Type here..."
+            />
+            <button class="addButton" id="addNewItem" onclick="addNewItem()">
+               Add new Item
+            </button>
+         </div>
       </div>
    </body>
 </html>
